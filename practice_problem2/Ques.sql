@@ -47,6 +47,12 @@ CREATE TABLE payments(
 
 SELECT * FROM payments;
 
+
+
+-- Imp. Instructions: Write SQL queries using aggregate functions 
+-- only (COUNT, SUM, AVG, MIN, MAX, GROUP BY, HAVING). 
+-- Each question must be answered using only the specified table.
+
 -- A. Customers
 --	 1. Find the total number of customers.
 		SELECT COUNT(*) AS total_customers FROM customers;
