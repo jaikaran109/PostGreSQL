@@ -1,19 +1,32 @@
-: Practical on Implementing ETL Pipeline using PostgreSQL
+Practical on Implementing ETL Pipeline using PostgreSQL
+
 Aim
+
 To simulate an ETL (Extract–Transform–Load) pipeline using PostgreSQL, including data extraction from CSV, data transformation using SQL, and loading processed data into database tables.
+
 Case Study
+
 A retail company collects sales data in CSV format from different cities.
 The company wants to:
+
 •	store raw data in the database 
 •	clean and transform the data 
 •	generate analytical summaries 
+
+
 You are assigned the role of a Data Engineer to implement a basic ETL pipeline using PostgreSQL.
 Software / Tools Required
+
 •	PostgreSQL (pgAdmin / psql) 
 •	CSV file (sales_data.csv) 
+
+
 Part A — Dataset
 Create a CSV file named:
 sales_data.csv
+
+
+
 Dataset Content:
 order_id,product,price,quantity,city
 101,Laptop,50000,1,Delhi
